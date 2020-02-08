@@ -1,0 +1,3 @@
+https://www.guru99.com/java-interface.html
+
+All variables and methods in an Interface are public, even if you leave out the public keyword.

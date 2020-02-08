@@ -1,0 +1,17 @@
+MyClass obj = new MyClass()
+#classname #objectname = new #classconstructor
+The new keyword here creates the object of class MyClass and invokes the constructor to initialize this newly created object.
+
+Note that the constructor name must match the class name, and it cannot have a return type (like void).
+Also note that the constructor is called when the object is created.
+All classes have constructors by default:
+if you do not create a class constructor yourself, Java creates one for you. 
+However, then you are not able to set initial values for object attributes.
+
+Default constructor in Java initializes member data variable to default values
+(numeric values are initialized as 0, booleans are initialized as false and references are initialized as null).
+
+And if we write a constructor with arguments or no-arguments then the compiler does not create a default constructor. So
+
+You cannot parameterized constructor without using default constructor else
+MyClass obj = new MyClass()

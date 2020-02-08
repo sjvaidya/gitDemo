@@ -1,0 +1,27 @@
+https://www.tutorialspoint.com/What-is-the-difference-between-class-variables-and-instance-variables-in-Java
+
+Local variables (Inside class methods):
+Variables defined inside methods, constructors or blocks are called local variables.
+The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+
+Instance variables: (Inside class, Outside Methods)
+Instance variables are variables within a class but outside any method.
+These variables are initialized when the class is instantiated. 
+Instance variables can be accessed from inside any method, constructor or blocks of that particular class.
+
+Class variables
+Class variables are variables declared within a class, outside any method, with the static keyword.
+
+Difference between instance variable and class variable also known as non-static vs static variable in java.
+Instance variables are per instance (object) basis.
+If you have 5 instances of one class you will have five copies of an instance variable.
+These are also referred as non-static variable and initialized when you create instance of any object using new() operator or
+by using other methods like reflection e.g. Class.newInstance().
+
+On the other hand, Class variables are declared using static keyword and they have exact same value for every instance. 
+static or class variable are initialized when the class is first loaded into JVM memory, unlike instance variable which initialized when an instance is created.
+
+Read more: https://javarevisited.blogspot.com/2012/02/difference-between-instance-class-and.html#ixzz6AoRxhmu6
+
+#My nootes
+If there is a method, which is going to use same parameters make it static
